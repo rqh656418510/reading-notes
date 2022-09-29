@@ -32,6 +32,6 @@ export const navbar = [
   {
     text: 'GitHub',
     icon: 'GitHub',
-    link: 'https://github.com/rqh656418510/vuepress-reading-notes'
+    link: 'https://github.com/rqh656418510/reading-notes'
   }
 ]
