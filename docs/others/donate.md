@@ -2,6 +2,6 @@
 title: 打赏
 ---
 
-|                        微信                         |                        支付宝                        |
-| :-------------------------------------------------: | :--------------------------------------------------: |
-| <img style="width: 160px" src="/books/wxpay.png" /> | <img style="width: 160px" src="/books/alipay.png" /> |
+|                                   微信                                    |                                   支付宝                                   |
+| :-----------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+| <img style="width: 160px" src="https://www.techgrow.cn/img/pay_wx.png" /> | <img style="width: 160px" src="https://www.techgrow.cn/img/pay_zfb.png" /> |
