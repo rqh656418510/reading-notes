@@ -1,0 +1,9 @@
+/* 搜索框的宽度 */
+.search-box input {
+  width: 200px;
+}
+
+/* 页面是否隐藏滚动条 */
+body::-webkit-scrollbar {
+  display: inline;
+}
