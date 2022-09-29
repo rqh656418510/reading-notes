@@ -15,5 +15,7 @@ export const themeConfig = {
   docsRepo: 'https://github.com/rqh656418510/reading-notes',
   docsBranch: 'main',
   docsDir: '/',
-  componentsDir: './docs/.vuepress/components'
+  catalogTitle: '文章目录',
+  componentsDir: '.vuepress/components',
+  vuePreviewsDir: '.vuepress/vue-previews'
 }

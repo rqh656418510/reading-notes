@@ -1,4 +1,5 @@
 export const bulletin = {
+  title: '网站公告',
   body: [
     {
       type: 'title',

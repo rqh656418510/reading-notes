@@ -6,6 +6,7 @@ modules:
 banner:
   heroText: '花有重开日, 人无再少年.'
   tagline: ''
+  heroImage: /logo.png
   bgImage: '/bg.svg'
   bgImageStyle: {
     overflow: hidden;
