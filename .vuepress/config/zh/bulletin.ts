@@ -32,7 +32,7 @@ export const bulletin = {
       children: [
         {
           text: '打赏',
-          link: '/docs/others/donate.html'
+          link: '/books/docs/others/donate.html'
         }
       ]
     }
