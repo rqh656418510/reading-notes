@@ -1,5 +1,5 @@
 export const series = {
-  '/docs/books/rust/Rustbianchengzhidao/': [
+  '/docs/books/rust/RustBianChengZhiDao/': [
     {
       text: 'Rust 编程之道',
       children: [
@@ -23,7 +23,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/rust/Rustquanweizhinan/': [
+  '/docs/books/rust/RustQuanWeiZhiNan/': [
     {
       text: 'Rust 权威指南',
       children: [
@@ -32,7 +32,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/java/Java8shizhan/': [
+  '/docs/books/java/Java8ShiZhan/': [
     {
       text: 'Java 8 实战',
       children: [
