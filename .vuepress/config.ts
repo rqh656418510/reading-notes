@@ -6,7 +6,7 @@ import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 export default defineUserConfig({
 
   // 基础配置
-  base: '/books/',
+  base: '/notes/',
   debug: false,
 
   head: [

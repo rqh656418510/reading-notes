@@ -21,7 +21,7 @@ export const bulletin = {
     },
     {
       type: 'text',
-      content: `<img style="width: 160px" src="/books/wechat.png" />`,
+      content: `<img style="width: 160px" src="/notes/wechat.png" />`,
       style: 'width:69%; margin:0 auto;'
     },
     {
@@ -32,7 +32,7 @@ export const bulletin = {
       children: [
         {
           text: '打赏',
-          link: '/books/docs/others/donate.html'
+          link: '/notes/docs/others/donate.html'
         }
       ]
     }
