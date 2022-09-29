@@ -1,6 +1,6 @@
 export const navbar = [
   {
-    text: 'Rust',
+    text: 'Rust 编程',
     icon: 'Rust',
     children: [
       {
@@ -18,7 +18,7 @@ export const navbar = [
     ]
   },
   {
-    text: 'Java',
+    text: 'Java 编程',
     icon: 'Java',
     children: [
       {
