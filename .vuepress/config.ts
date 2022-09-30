@@ -2,13 +2,13 @@ import { defineUserConfig } from 'vuepress'
 import { themeConfig } from './config/index'
 import { recoTheme } from 'vuepress-theme-reco'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 
 export default defineUserConfig({
 
   // 基础配置
   base: '/notes/',
   debug: false,
-
   head: [
     ['meta', { name: 'application-name', content: 'Clay 的读书笔记' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的读书笔记' }],
@@ -29,6 +29,11 @@ export default defineUserConfig({
 
   // 插件配置
   plugins: [
+    // 图片缩放
+    mediumZoomPlugin({
+      delay: 500
+    }),
+    // 站点地图
     sitemapPlugin({
       excludeUrls: ['/404.html'],
       hostname: 'https://docs.techgrow.cn',
