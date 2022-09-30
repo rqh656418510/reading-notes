@@ -40,5 +40,14 @@ export const series = {
         'book-buy'
       ]
     }
+  ],
+  '/docs/books/fontend/WebAssemblyShiZhan/': [
+    {
+      text: 'WebAssembly 实战',
+      children: [
+        'book-cover',
+        'book-buy'
+      ]
+    }
   ]
 }

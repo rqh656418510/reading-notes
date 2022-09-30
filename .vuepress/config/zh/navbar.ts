@@ -30,6 +30,18 @@ export const navbar = [
     ]
   },
   {
+    text: '前端编程',
+    icon: 'FontEnd',
+    children: [
+      {
+        text: '进阶',
+        children: [
+          { text: 'WebAssembly 实战', link: '/docs/books/fontend/WebAssemblyShiZhan/README.md' }
+        ]
+      }
+    ]
+  },
+  {
     text: 'GitHub',
     icon: 'GitHub',
     link: 'https://github.com/rqh656418510/reading-notes'
