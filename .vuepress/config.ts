@@ -38,7 +38,7 @@ export default defineUserConfig({
   // Markdown 配置
   markdown: {
     code: {
-      lineNumbers: false
+      lineNumbers: true
     }
   }
 

@@ -23,6 +23,12 @@ body::-webkit-scrollbar {
   vertical-align: middle;
 }
 
+/* 代码块的内边距 */
+div[class*="language-"] {
+  position: relative;
+  padding-left: 0.1rem;
+}
+
 /* 文章目录 */
 .page-catalog-container {
   /* 目录宽度 */
