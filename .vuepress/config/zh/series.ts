@@ -41,6 +41,15 @@ export const series = {
       ]
     }
   ],
+  '/docs/books/java/NacosJiaGouYuYuanLi/': [
+    {
+      text: 'Nacos 架构与原理',
+      children: [
+        'book-cover',
+        'book-buy'
+      ]
+    }
+  ],
   '/docs/books/fontend/WebAssemblyShiZhan/': [
     {
       text: 'WebAssembly 实战',

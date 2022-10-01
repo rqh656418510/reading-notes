@@ -26,6 +26,12 @@ export const navbar = [
         children: [
           { text: 'Java 8 实战', link: '/docs/books/java/Java8ShiZhan/' }
         ]
+      },
+      {
+        text: '进阶',
+        children: [
+          { text: 'Nacos 架构与原理', link: '/docs/books/java/NacosJiaGouYuYuanLi/' }
+        ]
       }
     ]
   },
