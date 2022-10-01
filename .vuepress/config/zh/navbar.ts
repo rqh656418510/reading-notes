@@ -6,13 +6,13 @@ export const navbar = [
       {
         text: '基础',
         children: [
-          { text: 'Rust 编程之道', link: '/docs/books/rust/RustBianChengZhiDao/' }
+          { text: 'Rust 编程之道', link: '/docs/books/rust/RustBianChengZhiDao/book-cover/' }
         ]
       },
       {
         text: '进阶',
         children: [
-          { text: 'Rust 权威指南', link: '/docs/books/rust/RustQuanWeiZhiNan/' }
+          { text: 'Rust 权威指南', link: '/docs/books/rust/RustQuanWeiZhiNan/book-cover/' }
         ]
       }
     ]
@@ -24,13 +24,13 @@ export const navbar = [
       {
         text: '基础',
         children: [
-          { text: 'Java 8 实战', link: '/docs/books/java/Java8ShiZhan/' }
+          { text: 'Java 8 实战', link: '/docs/books/java/Java8ShiZhan/book-cover/' }
         ]
       },
       {
         text: '进阶',
         children: [
-          { text: 'Nacos 架构与原理', link: '/docs/books/java/NacosJiaGouYuYuanLi/' }
+          { text: 'Nacos 架构与原理', link: '/docs/books/java/NacosJiaGouYuYuanLi/book-cover/' }
         ]
       }
     ]
@@ -42,7 +42,7 @@ export const navbar = [
       {
         text: '进阶',
         children: [
-          { text: 'WebAssembly 实战', link: '/docs/books/fontend/WebAssemblyShiZhan/' }
+          { text: 'WebAssembly 实战', link: '/docs/books/fontend/WebAssemblyShiZhan/book-cover/' }
         ]
       }
     ]

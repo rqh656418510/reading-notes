@@ -4,7 +4,8 @@ export const series = {
       text: 'Rust 编程之道',
       children: [
         'book-cover',
-        'book-buy'
+        'book-buy',
+        'book-progress'
       ]
     },
     {
@@ -28,7 +29,8 @@ export const series = {
       text: 'Rust 权威指南',
       children: [
         'book-cover',
-        'book-buy'
+        'book-buy',
+        'book-progress'
       ]
     }
   ],
@@ -37,7 +39,8 @@ export const series = {
       text: 'Java 8 实战',
       children: [
         'book-cover',
-        'book-buy'
+        'book-buy',
+        'book-progress'
       ]
     }
   ],
@@ -46,7 +49,8 @@ export const series = {
       text: 'Nacos 架构与原理',
       children: [
         'book-cover',
-        'book-buy'
+        'book-buy',
+        'book-progress'
       ]
     }
   ],
@@ -55,7 +59,8 @@ export const series = {
       text: 'WebAssembly 实战',
       children: [
         'book-cover',
-        'book-buy'
+        'book-buy',
+        'book-progress'
       ]
     }
   ]
