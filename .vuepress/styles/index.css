@@ -58,6 +58,12 @@ div[class*="language-"] {
   margin-top: 0.2rem;
 }
 
+/* 自定义容器 */
+.custom-container p {
+  margin-top: 0px;
+  margin-bottom: 0.875rem;
+}
+
 /* 提示框 */
 .custom-container.tip {
   border-color: #42b983;
