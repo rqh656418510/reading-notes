@@ -9,6 +9,7 @@ export default defineUserConfig({
   // 基础配置
   base: '/notes/',
   debug: false,
+  port: 8080,
   head: [
     ['meta', { name: 'application-name', content: 'Clay 的读书笔记' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的读书笔记' }],
