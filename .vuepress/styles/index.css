@@ -43,15 +43,22 @@ div[class*="language-"] {
 
 /* 二级文章目录 */
 .page-catalog-menu-depth_2 {
-  font-size: 0.915rem !important;
+  font-size: 0.875rem !important;
 }
 
 /* 三级文章目录 */
 .page-catalog-menu-depth_3 {
-  font-size: 0.79rem !important;
+  margin-left: 1rem;
+  font-size: 0.875rem !important;
 }
 
-/* 公告标题*/
+/* 公告栏 */
+.bulletin-wrapper {
+  top: unset;
+  bottom: 1rem;
+}
+
+/* 公告栏标题 */
 .bulletin-title .icon-container .icon-text {
   margin-top: 0.2rem;
 }
