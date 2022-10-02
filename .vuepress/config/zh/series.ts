@@ -13,7 +13,8 @@ export const series = {
       children: [
         'chapter-01-section-01',
         'chapter-01-section-02',
-        'chapter-01-section-03'
+        'chapter-01-section-03',
+        'chapter-01-section-04'
       ]
     },
     {

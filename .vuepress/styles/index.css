@@ -1,11 +1,6 @@
-/* 搜索框的宽度 */
+/* 搜索框 */
 .search-box input {
   width: 130px;
-}
-
-/* 页面是否隐藏滚动条 */
-body::-webkit-scrollbar {
-  display: inline;
 }
 
 /* 首页 Logo 图片 */
@@ -23,7 +18,7 @@ body::-webkit-scrollbar {
   vertical-align: middle;
 }
 
-/* 代码块的内边距 */
+/* 代码块 */
 div[class*="language-"] {
   position: relative;
   padding-left: 0.1rem;
@@ -61,4 +56,20 @@ div[class*="language-"] {
 /* 公告栏标题 */
 .bulletin-title .icon-container .icon-text {
   margin-top: 0.2rem;
+}
+
+/* 提示框 */
+.custom-container.tip {
+  border-color: #42b983;
+  background-color: rgba(66, 185, 131, .1);
+}
+
+/* 提示框标题 */
+.custom-container.tip .custom-container-title {
+  color: #42b983;
+}
+
+/* 提示框图标 */
+.custom-container.tip svg {
+  color: #42b983;
 }
