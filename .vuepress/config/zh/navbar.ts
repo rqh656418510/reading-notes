@@ -1,6 +1,6 @@
 export const navbar = [
   {
-    text: 'Rust 编程',
+    text: 'Rust 开发',
     icon: 'Rust',
     children: [
       {
@@ -18,7 +18,7 @@ export const navbar = [
     ]
   },
   {
-    text: 'Java 编程',
+    text: 'Java 开发',
     icon: 'Java',
     children: [
       {
@@ -36,7 +36,7 @@ export const navbar = [
     ]
   },
   {
-    text: '前端编程',
+    text: '前端开发',
     icon: 'FontEnd',
     children: [
       {
