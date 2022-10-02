@@ -41,9 +41,14 @@ div[class*="language-"] {
   margin-right: 1.5rem;
 }
 
-/* 文章目录列表 */
-.page-catalog-item {
-  font-size: 0.9rem;
+/* 二级文章目录 */
+.page-catalog-menu-depth_2 {
+  font-size: 0.915rem !important;
+}
+
+/* 三级文章目录 */
+.page-catalog-menu-depth_3 {
+  font-size: 0.79rem !important;
 }
 
 /* 公告标题*/
