@@ -41,6 +41,11 @@ div[class*="language-"] {
   margin-right: 1.5rem;
 }
 
+/* 文章目录列表 */
+.page-catalog-item {
+  font-size: 0.9rem;
+}
+
 /* 公告标题*/
 .bulletin-title .icon-container .icon-text {
   margin-top: 0.2rem;

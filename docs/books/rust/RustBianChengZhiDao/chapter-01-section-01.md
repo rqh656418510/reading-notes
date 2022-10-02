@@ -3,30 +3,33 @@ title: 设计哲学
 description: 设计哲学
 ---
 
-## 并发代码
+### Rust 特性
 
-``` rust
-use std::sync::{Arc, Mutex};
-use std::thread;
+2015 年 Rust 1.0 发布时，官方描述 Rust 的主要特点有以下几方面：
 
-fn main() {
-    let counter = Arc::new(Mutex::new(0));
-    let mut handles = vec![];
+- 系统级语言
+- 无 GC
+- 基于 LLVM
+- 内存安全
+- 强类型 + 静态类型
+- 混合编程范式
+- 零成本抽象
+- 线程安全
 
-    for _ in 0..10 {
-        let counter = Arc::clone(&counter);
-        let handle = thread::spawn(move || {
-            let mut num = counter.lock().unwrap();
+### 借鉴 Haskell 的特性
 
-            *num += 1;
-        });
-        handles.push(handle);
-    }
+号称纯函数式的 Haskell 语言，它具有融合了范畴理论的类型系统，利用了范畴理论自身的代数性质和定律保证了程序自身的正确性。然而，Haskell 也有比较明显的缺点，那就是运行效率不高。反观 Rust 语言，它借鉴了 Haskell 的类型系统，保证了程序的正确性。Rust 从 Haskell 的类型系统那里借鉴了以下特性：
 
-    for handle in handles {
-        handle.join().unwrap();
-    }
+- 没有空指针
+- 默认不可变
+- 表达式
+- 高阶函数
+- 代数数据类型
+- 模式匹配
+- 泛型
+- trait 和关联类型
+- 本地类型推导
 
-    println!("Result: {}", *counter.lock().unwrap());
-}
-```
+### 借鉴 C++ 的特性
+
+在类型系统的基础上，Rust 借鉴了现代 C++ 的内存管理机制，建立了所有权系统，两者保证了类型安全和内存安全；同时也解决了多线程并发编程中的数据竞争问题，默认线程安全，且不会牺牲性能。为了保证支持硬实时系统，Rust 从 C++ 那里借鉴了确定性析构、RAII 和智能指针，用于自动化地、确定性地管理内存，从而避免了 GC 的引入，因而就不会有 `世界暂停` 的问题了。这几项虽然借鉴自 C++, 但是使用起来比 C++更加简洁。再看代码的可维护性，Rust 代码的可读性和抽象能力都是一流的，不仅拥有高的开发效率，还拥有可以和 C/C++ 媲美的性能。

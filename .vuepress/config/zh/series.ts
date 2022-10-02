@@ -9,7 +9,7 @@ export const series = {
       ]
     },
     {
-      text: '第一章',
+      text: '第一章 新时代的语言',
       children: [
         'chapter-01-section-01',
         'chapter-01-section-02',
@@ -17,7 +17,7 @@ export const series = {
       ]
     },
     {
-      text: '第二章',
+      text: '第二章 语言精要',
       children: [
         'chapter-02-section-01',
         'chapter-02-section-02'
