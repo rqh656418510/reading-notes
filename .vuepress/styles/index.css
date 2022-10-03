@@ -18,10 +18,25 @@
   vertical-align: middle;
 }
 
-/* 代码块 */
+/* 代码块整体 */
 div[class*="language-"] {
-  position: relative;
-  padding-left: 0.1rem;
+  background-color: #363b45;
+  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+/* 代码块正文 */
+div[class*="language-"] code {
+  color: white;
+}
+
+/* 代码块边框 */
+div[class*="language-"] pre[class*="language-"] {
+  border-color: #3E4C5A;
+}
+
+/* 代码块行号 */
+div[class*="language-"].line-numbers-mode .line-numbers {
+  background-color: #363b45;
 }
 
 /* 文章目录 */
