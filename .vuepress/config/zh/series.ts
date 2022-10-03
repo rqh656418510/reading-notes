@@ -5,7 +5,8 @@ export const series = {
       children: [
         'book-cover',
         'book-buy',
-        'book-progress'
+        'book-progress',
+        'run-code'
       ]
     },
     {
