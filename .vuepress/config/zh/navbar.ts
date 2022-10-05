@@ -18,6 +18,18 @@ export const navbar = [
     ]
   },
   {
+    text: 'C++ 开发',
+    icon: 'C++',
+    children: [
+      {
+        text: '基础',
+        children: [
+          { text: 'C++ Primer Plus (第 6 版)', link: '/docs/books/cxx/CxxPrimerPlus/book-cover/' }
+        ]
+      }
+    ]
+  },
+  {
     text: 'Java 开发',
     icon: 'Java',
     children: [

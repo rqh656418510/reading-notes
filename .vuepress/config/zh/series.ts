@@ -36,6 +36,16 @@ export const series = {
       ]
     }
   ],
+  '/docs/books/cxx/CxxPrimerPlus/': [
+    {
+      text: 'C++ Primer Plus (第 6 版)',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    }
+  ],
   '/docs/books/java/Java8ShiZhan/': [
     {
       text: 'Java 8 实战',

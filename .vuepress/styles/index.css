@@ -18,6 +18,11 @@
   vertical-align: middle;
 }
 
+/* 左侧边栏（系列） */
+.series-container {
+  width: 17rem;
+}
+
 /* 代码块整体 */
 div[class*="language-"] {
   background-color: #363b45;
