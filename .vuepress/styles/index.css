@@ -1,6 +1,8 @@
 /* 搜索框 */
-.search-box input {
-  width: 130px;
+@media screen and (min-width: 1221px) {
+  .search-box input {
+    width: 180px;
+  }
 }
 
 /* 首页 Logo 图片 */
@@ -76,6 +78,13 @@ div[class*="language-"].line-numbers-mode .line-numbers {
 /* 公告栏标题 */
 .bulletin-title .icon-container .icon-text {
   margin-top: 0.2rem;
+}
+
+/* 隐藏公告栏 */
+@media screen and (max-width: 1221px) {
+  .bulletin-wrapper {
+    display: none;
+  }
 }
 
 /* 自定义容器 */
