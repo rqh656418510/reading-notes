@@ -44,6 +44,15 @@ export const series = {
         'book-buy',
         'book-progress'
       ]
+    },
+    {
+      text: '第一章 预备知识',
+      children: [
+        'chapter-01-section-01',
+        'chapter-01-section-02',
+        'chapter-01-section-03',
+        'chapter-01-section-04'
+      ]
     }
   ],
   '/docs/books/java/Java8ShiZhan/': [
