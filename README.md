@@ -4,7 +4,7 @@ modules:
   - Banner
   - CustomFooter
 banner:
-  heroText: '花有重开日, 人无再少年.'
+  heroText: '你所浪费的今天, 是昨日死去之人苦苦奢求的明天.'
   tagline: ''
   heroImage: /assets/logo.png
   bgImage: '/assets/bg.svg'
