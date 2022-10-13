@@ -54,7 +54,8 @@ export const navbar = [
       {
         text: '基础',
         children: [
-          { text: 'ES 6 标准入门 (第 3 版)', link: '/docs/books/fontend/ES6BiaoZhunRuMen/book-cover/' }
+          { text: 'ES 6 标准入门 (第 3 版)', link: '/docs/books/fontend/ES6BiaoZhunRuMen/book-cover/' },
+          { text: 'ECMAScript 2018 快速入门', link: '/docs/books/fontend/ECMAScript2018KuaiSuRuMen/book-cover/' }
         ]
       },
       {

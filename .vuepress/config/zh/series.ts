@@ -85,6 +85,16 @@ export const series = {
       ]
     }
   ],
+  '/docs/books/fontend/ECMAScript2018KuaiSuRuMen/': [
+    {
+      text: 'ECMAScript 2018 快速入门',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    }
+  ],
   '/docs/books/fontend/WebAssemblyShiZhan/': [
     {
       text: 'WebAssembly 实战',
