@@ -52,6 +52,12 @@ export const navbar = [
     icon: 'FontEnd',
     children: [
       {
+        text: '基础',
+        children: [
+          { text: 'ES 6 标准入门 (第 3 版)', link: '/docs/books/fontend/ES6BiaoZhunRuMen/book-cover/' }
+        ]
+      },
+      {
         text: '进阶',
         children: [
           { text: 'WebAssembly 实战', link: '/docs/books/fontend/WebAssemblyShiZhan/book-cover/' }

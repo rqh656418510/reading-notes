@@ -75,6 +75,16 @@ export const series = {
       ]
     }
   ],
+  '/docs/books/fontend/ES6BiaoZhunRuMen/': [
+    {
+      text: 'ES 6 标准入门 (第 3 版)',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    }
+  ],
   '/docs/books/fontend/WebAssemblyShiZhan/': [
     {
       text: 'WebAssembly 实战',
