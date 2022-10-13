@@ -36,7 +36,8 @@ export const navbar = [
       {
         text: '基础',
         children: [
-          { text: 'Java 8 实战', link: '/docs/books/java/Java8ShiZhan/book-cover/' }
+          { text: 'Java 8 实战', link: '/docs/books/java/Java8ShiZhan/book-cover/' },
+          { text: 'Java 8 函数式编程', link: '/docs/books/java/Java8HanShuShiBianCheng/book-cover/' }
         ]
       },
       {

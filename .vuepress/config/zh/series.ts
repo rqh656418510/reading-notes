@@ -65,6 +65,16 @@ export const series = {
       ]
     }
   ],
+  '/docs/books/java/Java8HanShuShiBianCheng/': [
+    {
+      text: 'Java 8 函数式编程',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    }
+  ],
   '/docs/books/java/NacosJiaGouYuYuanLi/': [
     {
       text: 'Nacos 架构与原理',
