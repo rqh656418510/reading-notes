@@ -11,8 +11,8 @@ export default defineUserConfig({
   debug: false,
   port: 8080,
   head: [
-    ['meta', { name: 'application-name', content: 'Clay 的小书屋' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的小书屋' }],
+    ['meta', { name: 'application-name', content: 'Clay 的读书笔记' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的读书笔记' }],
     ['link', { rel: 'icon', href: 'favicon.ico' }]
   ],
 
@@ -20,8 +20,8 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Clay 的小书屋',
-      description: 'Clay 的小书屋。',
+      title: 'Clay 的读书笔记',
+      description: 'Clay 的读书笔记。',
     }
   },
 
