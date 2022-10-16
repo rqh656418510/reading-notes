@@ -1,5 +1,5 @@
 export const series = {
-  '/docs/books/rust/rustbianchengzhidao/': [
+  '/docs/rust/rustbianchengzhidao/': [
     {
       text: 'Rust 编程之道',
       children: [
@@ -26,7 +26,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/rust/rustquanweizhinan/': [
+  '/docs/rust/rustquanweizhinan/': [
     {
       text: 'Rust 权威指南',
       children: [
@@ -36,7 +36,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/cxx/cxxprimerplus/': [
+  '/docs/cxx/cxxprimerplus/': [
     {
       text: 'C++ Primer Plus (第 6 版)',
       children: [
@@ -55,7 +55,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/java/java8shizhan/': [
+  '/docs/java/java8shizhan/': [
     {
       text: 'Java 8 实战',
       children: [
@@ -65,7 +65,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/java/java8hanshushibiancheng/': [
+  '/docs/java/java8hanshushibiancheng/': [
     {
       text: 'Java 8 函数式编程',
       children: [
@@ -75,7 +75,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/java/nacosjiagouyuyuanli/': [
+  '/docs/java/nacosjiagouyuyuanli/': [
     {
       text: 'Nacos 架构与原理',
       children: [
@@ -85,7 +85,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/fontend/es6biaozhunrumen/': [
+  '/docs/fontend/es6biaozhunrumen/': [
     {
       text: 'ES 6 标准入门 (第 3 版)',
       children: [
@@ -95,7 +95,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/fontend/ecmascript2018kuaisurumen/': [
+  '/docs/fontend/ecmascript2018kuaisurumen/': [
     {
       text: 'ECMAScript 2018 快速入门',
       children: [
@@ -105,7 +105,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/books/fontend/webassemblyshizhan/': [
+  '/docs/fontend/webassemblyshizhan/': [
     {
       text: 'WebAssembly 实战',
       children: [
