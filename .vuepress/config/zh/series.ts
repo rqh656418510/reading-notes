@@ -53,6 +53,14 @@ export const series = {
         'chapter-01-section-03',
         'chapter-01-section-04'
       ]
+    },
+    {
+      text: '第二章 开始学习 C++',
+      children: [
+        'chapter-02-section-01',
+        'chapter-02-section-02',
+        'chapter-02-section-03',
+      ]
     }
   ],
   '/docs/java/java8shizhan/': [
