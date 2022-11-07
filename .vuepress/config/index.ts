@@ -11,7 +11,7 @@ export const themeConfig = {
     }
   },
   author: 'clay',
-  logo: '/assets/logo.png',
+  logo: '/logo.png',
   docsRepo: 'https://github.com/rqh656418510/reading-notes',
   docsBranch: 'main',
   docsDir: '/',

@@ -6,8 +6,8 @@ modules:
 banner:
   heroText: '你所浪费的今天, 是昨日死去之人苦苦奢求的明天.'
   tagline: ''
-  heroImage: /assets/logo.png
-  bgImage: '/assets/bg.svg'
+  heroImage: /logo.png
+  bgImage: '/bg.svg'
   bgImageStyle: {
     overflow: hidden;
   }

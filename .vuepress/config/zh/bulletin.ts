@@ -22,7 +22,7 @@ export const bulletin = {
     },
     {
       type: 'text',
-      content: `<img style="width: 160px" src="/notes/assets/wechat.png" />`,
+      content: `<img style="width: 160px" src="/notes/wechat.png" />`,
       style: 'width:69%; margin:0 auto;'
     },
     {
