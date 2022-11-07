@@ -43,6 +43,11 @@ div[class*="language-"] code {
   color: white;
 }
 
+/* 代码块正文 */
+div[class*="language-"] code span {
+  margin-left: 0.1rem;
+}
+
 /* 代码块边框 */
 div[class*="language-"] pre[class*="language-"] {
   border-color: #3E4C5A;
