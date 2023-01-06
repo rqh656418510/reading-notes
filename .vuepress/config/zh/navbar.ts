@@ -1,5 +1,17 @@
 export const navbar = [
   {
+    text: 'C++ 开发',
+    icon: 'C++',
+    children: [
+      {
+        text: '基础',
+        children: [
+          { text: 'C++ Primer Plus (第 6 版)', link: '/docs/cxx/cxxprimerplus/book-cover/' }
+        ]
+      }
+    ]
+  },
+  {
     text: 'Rust 开发',
     icon: 'Rust',
     children: [
@@ -13,18 +25,6 @@ export const navbar = [
         text: '进阶',
         children: [
           { text: 'Rust 权威指南', link: '/docs/rust/rustquanweizhinan/book-cover/' }
-        ]
-      }
-    ]
-  },
-  {
-    text: 'C++ 开发',
-    icon: 'C++',
-    children: [
-      {
-        text: '基础',
-        children: [
-          { text: 'C++ Primer Plus (第 6 版)', link: '/docs/cxx/cxxprimerplus/book-cover/' }
         ]
       }
     ]
@@ -47,6 +47,21 @@ export const navbar = [
         ]
       }
     ]
+  },
+  {
+    text: 'Go 开发',
+    icon: 'Go',
+    children: []
+  },
+  {
+    text: 'Python 开发',
+    icon: 'Python',
+    children: []
+  },
+  {
+    text: 'Android 开发',
+    icon: 'Android',
+    children: []
   },
   {
     text: '前端开发',
