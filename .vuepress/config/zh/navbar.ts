@@ -61,7 +61,16 @@ export const navbar = [
   {
     text: 'Android 开发',
     icon: 'Android',
-    children: []
+    children: [
+      {
+        text: '基础',
+        children: []
+      },
+      {
+        text: 'Kotlin',
+        children: []
+      }
+    ]
   },
   {
     text: '前端开发',
