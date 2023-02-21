@@ -92,6 +92,11 @@ export const navbar = [
     ]
   },
   {
+    text: '区块链开发',
+    icon: 'BlockChain',
+    children: []
+  },
+  {
     text: 'GitHub',
     icon: 'GitHub',
     link: 'https://github.com/rqh656418510/reading-notes'
