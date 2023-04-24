@@ -32,26 +32,31 @@
   width: 17rem;
 }
 
-/* 代码块整体 */
-div[class*="language-"] {
-  background-color: #363b45;
-  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+/* 代码块正文 */
+.token.punctuation {
+  color: #bb9712 !important;
 }
 
 /* 代码块正文 */
 div[class*="language-"] code {
-  color: white;
+  color: white !important;
 }
 
 /* 代码块正文 */
 div[class*="language-"] pre[class*="language-"] {
-  border-color: #3E4C5A;
-  padding-left: 4.5rem;
+  padding-left: 4.5rem !important;
+  border-color: #3E4C5A !important;
 }
 
 /* 代码块行号 */
 div[class*="language-"].line-numbers-mode .line-numbers {
-  background-color: #363b45;
+  background-color: #363b45 !important;
+}
+
+/* 代码块整体 */
+div[class*="language-"] {
+  background-color: #363b45 !important;
+  font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
 }
 
 /* 文章目录 */
@@ -83,16 +88,16 @@ div[class*="language-"].line-numbers-mode .line-numbers {
   bottom: 1rem;
 }
 
-/* 公告栏标题 */
-.bulletin-title .icon-container .icon-text {
-  margin-top: 0.2rem;
-}
-
 /* 隐藏公告栏 */
 @media screen and (max-width: 1221px) {
   .bulletin-wrapper {
     display: none;
   }
+}
+
+/* 公告栏标题 */
+.bulletin-title .icon-container .icon-text {
+  margin-top: 0.2rem;
 }
 
 /* 自定义容器 */
@@ -101,18 +106,18 @@ div[class*="language-"].line-numbers-mode .line-numbers {
   margin-bottom: 0.875rem;
 }
 
-/* 提示框 */
-.custom-container.tip {
-  border-color: #42b983;
-  background-color: rgba(66, 185, 131, .1);
+/* 提示框图标 */
+.custom-container.tip svg {
+  color: #42b983 !important;
 }
 
 /* 提示框标题 */
 .custom-container.tip .custom-container-title {
-  color: #42b983;
+  color: #42b983 !important;
 }
 
-/* 提示框图标 */
-.custom-container.tip svg {
-  color: #42b983;
+/* 提示框背景 */
+.custom-container.tip {
+  border-color: #42b983 !important;
+  background-color: rgba(66, 185, 131, .1) !important;
 }

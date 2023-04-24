@@ -37,7 +37,7 @@ export default defineUserConfig({
     // 站点地图
     sitemapPlugin({
       excludeUrls: ['/404.html'],
-      hostname: 'https://docs.techgrow.cn',
+      hostname: 'https://www.techgrow.cn',
     })
   ],
 

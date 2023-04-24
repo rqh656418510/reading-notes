@@ -6,15 +6,15 @@ description: 进入 C++
 首先介绍一个显示消息的简单 C++ 程序，即使用 C++ 工具 `cout` 生成字符输出。源代码中包含一些供读者阅读的注释，这些注释都以 `//` 打头，编译器将忽略它们。C++ 对大小写敏感，也就是说区分大写字符和小写字符。这意味着大小写必须与示例中相同。例如，该程序使用的是 `cout`，如果将其替换为 Cout 或 COUT，程序将无法通过编译，并且编译器将指出使用了未知的标识符 (编译器也是对拼写敏感的，因此请不要使用 kout 或 coot)。文件扩展名 `cpp` 是一种表示 C++ 程序的常用方式，您可能需要使用第一章介绍的其他扩展名。
 
 ``` cpp
-#include <iostream>                                                 // a PREPROCESSOR directive
-int main()                                                                 // function header
-{                                                                             // start of function body
-    using namespace std;                                          // make definitions visible
-    cout << "Come up and C++ me some time.";         // message
-    cout << endl;                                                     // start a new line
-    cout << "You won't regret it!" << endl;                 // more output
-    return 0;                                                           // terminate main()
-}                                                                          // end of function body
+#include <iostream>                                           // a PREPROCESSOR directive
+int main()                                                    // function header
+{                                                             // start of function body
+    using namespace std;                                      // make definitions visible
+    cout << "Come up and C++ me some time.";                  // message
+    cout << endl;                                             // start a new line
+    cout << "You won't regret it!" << endl;                   // more output
+    return 0;                                                 // terminate main()
+}                                                             // end of function body
 ```
 
 ::: tip 程序调整
@@ -113,14 +113,14 @@ C++ 注释以双斜杠 `//` 打头。注释是程序员为读者提供的说明�
 :::: code-group
 ::: code-group-item 有注释
 ``` cpp
-#include <iostream>                                                 // a PREPROCESSOR directive
-int main()                                                                 // function header
-{                                                                             // start of function body
-    using namespace std;                                          // make definitions visible
-    cout << "Come up and C++ me some time.";         // message
-    cout << endl;                                                     // start a new line
-    cout << "You won't regret it!" << endl;                 // more output
-    return 0;                                                           // terminate main()
+#include <iostream>                                           // a PREPROCESSOR directive
+int main()                                                    // function header
+{                                                             // start of function body
+    using namespace std;                                      // make definitions visible
+    cout << "Come up and C++ me some time.";                  // message
+    cout << endl;                                             // start a new line
+    cout << "You won't regret it!" << endl;                   // more output
+    return 0;                                                 // terminate main()
 }
 ```
 :::
