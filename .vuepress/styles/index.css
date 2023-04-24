@@ -1,4 +1,9 @@
 /* 搜索框 */
+.search-box input {
+    padding-left: 35px !important;
+}
+
+/* 搜索框 */
 @media screen and (min-width: 1221px) {
   .search-box input {
     width: 180px;
