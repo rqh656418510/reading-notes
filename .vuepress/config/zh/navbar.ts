@@ -1,7 +1,7 @@
 export const navbar = [
   {
-    text: 'C++ 开发',
-    icon: 'C++',
+    text: 'C/C++',
+    icon: 'C-C++',
     children: [
       {
         text: '基础',
@@ -12,7 +12,7 @@ export const navbar = [
     ]
   },
   {
-    text: 'Rust 开发',
+    text: 'Rust',
     icon: 'Rust',
     children: [
       {
@@ -30,7 +30,7 @@ export const navbar = [
     ]
   },
   {
-    text: 'Java 开发',
+    text: 'Java',
     icon: 'Java',
     children: [
       {
@@ -49,17 +49,27 @@ export const navbar = [
     ]
   },
   {
-    text: 'Go 开发',
-    icon: 'Go',
-    children: []
+    text: 'Golang',
+    icon: 'Golang',
+    children: [
+      {
+        text: '基础',
+        children: []
+      }
+    ]
   },
   {
-    text: 'Python 开发',
+    text: 'Python',
     icon: 'Python',
-    children: []
+    children: [
+      {
+        text: '基础',
+        children: []
+      }
+    ]
   },
   {
-    text: 'Android 开发',
+    text: 'Android',
     icon: 'Android',
     children: [
       {
@@ -73,7 +83,7 @@ export const navbar = [
     ]
   },
   {
-    text: '前端开发',
+    text: '前端',
     icon: 'FontEnd',
     children: [
       {
@@ -92,9 +102,14 @@ export const navbar = [
     ]
   },
   {
-    text: '区块链开发',
+    text: '区块链',
     icon: 'BlockChain',
-    children: []
+    children: [
+      {
+        text: '基础',
+        children: []
+      }
+    ]
   },
   {
     text: 'GitHub',
