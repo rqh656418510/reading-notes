@@ -29,12 +29,18 @@
 .navbar-container .nav-item .logo {
   width: 1.7rem;
   height: 1.7rem;
+  border-radius: 50%;
   vertical-align: middle;
 }
 
 /* 左侧边栏（系列） */
 .series-container {
   width: 17rem;
+}
+
+/* 左侧边栏（系列）的 Logo 图片 */
+.series-container .site-brand img {
+  border-radius: 50%;
 }
 
 /* 代码块正文 */
