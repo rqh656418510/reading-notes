@@ -18,11 +18,11 @@
 }
 
 /* 首页 Logo 图片 */
-.banner-wrapper .hero-content img {
+.banner-wrapper .banner-brand__content img {
   display: block;
-  max-width: 200px;
   border-radius: 50%;
   margin: '0 auto 0';
+  width: 250px !important;
 }
 
 /* 导航栏 Logo 图片 */
