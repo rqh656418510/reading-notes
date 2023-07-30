@@ -12,7 +12,7 @@
 
 /* 首页文案 */
 @media screen and (max-width: 1221px) {
-  .banner-wrapper .hero-content h1 {
+  .banner-wrapper .banner-brand__content h1 {
     display: none;
   }
 }
