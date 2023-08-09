@@ -121,5 +121,34 @@ export const series = {
         'book-progress'
       ]
     }
+  ],
+  '/docs/game/pcyxbcrjby/': [
+    {
+      text: 'PC 游戏编程 (人机博弈)',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    }
+  ],
+  '/docs/game/zgxqcxrmytg/': [
+    {
+      text: 'C/C++ 中国象棋程序入门与提高',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    },
+    {
+      text: '第一章 绪论',
+      children: [
+        'chapter-01-section-01',
+        'chapter-01-section-02',
+        'chapter-01-section-03',
+        'chapter-01-section-04'
+      ]
+    }
   ]
 }

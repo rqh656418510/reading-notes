@@ -51,36 +51,17 @@ export const navbar = [
   {
     text: 'Golang',
     icon: 'Golang',
-    children: [
-      {
-        text: '基础',
-        children: []
-      }
-    ]
+    children: []
   },
   {
     text: 'Python',
     icon: 'Python',
-    children: [
-      {
-        text: '基础',
-        children: []
-      }
-    ]
+    children: []
   },
   {
     text: 'Android',
     icon: 'Android',
-    children: [
-      {
-        text: '基础',
-        children: []
-      },
-      {
-        text: 'Kotlin',
-        children: []
-      }
-    ]
+    children: []
   },
   {
     text: '前端',
@@ -104,10 +85,18 @@ export const navbar = [
   {
     text: '区块链',
     icon: 'BlockChain',
+    children: []
+  },
+   {
+    text: '游戏开发',
+    icon: 'GameDevelop',
     children: [
       {
-        text: '基础',
-        children: []
+        text: '机器博弈',
+        children: [
+          { text: 'PC 游戏编程 (人机博弈)', link: '/docs/game/pcyxbcrjby/book-cover/' },
+          { text: 'C/C++ 中国象棋程序入门与提高', link: '/docs/game/zgxqcxrmytg/book-cover/' }
+        ]
       }
     ]
   },
