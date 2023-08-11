@@ -35,12 +35,12 @@
 
 /* 左侧边栏（系列） */
 .series-container {
-  width: 17rem;
+  width: 19rem !important;
 }
 
 /* 左侧边栏（系列）的 Logo 图片 */
 .series-container .site-brand img {
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 
 /* 代码块正文 */
