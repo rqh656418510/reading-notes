@@ -149,6 +149,21 @@ export const series = {
         'chapter-01-section-03',
         'chapter-01-section-04'
       ]
+    },
+    {
+      text: '第二章 中国象棋博弈',
+      children: [
+        'chapter-02-section-01'
+      ]
+    },
+    {
+      text: '第三章 局面表示',
+      children: [
+        'chapter-03-section-01',
+        'chapter-03-section-02',
+        'chapter-03-section-03',
+        'chapter-03-section-04'
+      ]
     }
   ]
 }
