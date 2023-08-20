@@ -10,7 +10,7 @@ export const themeConfig = {
       editLinkText: '在 GitHub 上编辑此页',
     }
   },
-  author: 'clay',
+  author: 'Clay',
   logo: '/logo.png',
   docsRepo: 'https://github.com/rqh656418510/reading-notes',
   docsBranch: 'main',
