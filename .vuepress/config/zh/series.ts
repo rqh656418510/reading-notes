@@ -164,6 +164,18 @@ export const series = {
         'chapter-03-section-03',
         'chapter-03-section-04'
       ]
+    },
+    {
+      text: '第四章 走法表示',
+      children: [
+        'chapter-04-section-01',
+        'chapter-04-section-02',
+        'chapter-04-section-03',
+        'chapter-04-section-04',
+        'chapter-04-section-05',
+        'chapter-04-section-06',
+        'chapter-04-section-07'
+      ]
     }
   ]
 }
