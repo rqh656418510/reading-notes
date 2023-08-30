@@ -92,7 +92,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/fontend/es6biaozhunrumen/': [
+  '/docs/fontend/es6bzrm/': [
     {
       text: 'ES 6 标准入门 (第 3 版)',
       children: [
@@ -102,7 +102,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/fontend/ecmascript2018kuaisurumen/': [
+  '/docs/fontend/ecmascript2018ksrm/': [
     {
       text: 'ECMAScript 2018 快速入门',
       children: [
