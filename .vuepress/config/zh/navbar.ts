@@ -36,14 +36,14 @@ export const navbar = [
       {
         text: '基础',
         children: [
-          { text: 'Java 8 实战', link: '/docs/java/java8shizhan/book-cover/' },
-          { text: 'Java 8 函数式编程', link: '/docs/java/java8hanshushibiancheng/book-cover/' }
+          { text: 'Java 8 实战', link: '/docs/java/java8sz/book-cover/' },
+          { text: 'Java 8 函数式编程', link: '/docs/java/java8hssbc/book-cover/' }
         ]
       },
       {
         text: '进阶',
         children: [
-          { text: 'Nacos 架构与原理', link: '/docs/java/nacosjiagouyuyuanli/book-cover/' }
+          { text: 'Nacos 架构与原理', link: '/docs/java/nacosjgyyl/book-cover/' }
         ]
       }
     ]

@@ -62,7 +62,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/java/java8shizhan/': [
+  '/docs/java/java8sz/': [
     {
       text: 'Java 8 实战',
       children: [
@@ -72,7 +72,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/java/java8hanshushibiancheng/': [
+  '/docs/java/java8hssbc/': [
     {
       text: 'Java 8 函数式编程',
       children: [
@@ -82,7 +82,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/java/nacosjiagouyuyuanli/': [
+  '/docs/java/nacosjgyyl/': [
     {
       text: 'Nacos 架构与原理',
       children: [

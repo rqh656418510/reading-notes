@@ -31,7 +31,6 @@ HELP.md
 .vscode/
 
 ### NodeJs
-package-lock.json
 yarn-error.log
 node_modules
 yarn.lock
