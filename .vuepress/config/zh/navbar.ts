@@ -77,7 +77,7 @@ export const navbar = [
       {
         text: '进阶',
         children: [
-          { text: 'WebAssembly 实战', link: '/docs/fontend/webassemblyshizhan/book-cover/' }
+          { text: 'WebAssembly 实战', link: '/docs/fontend/webassemblysz/book-cover/' }
         ]
       }
     ]

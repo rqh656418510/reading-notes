@@ -112,7 +112,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/fontend/webassemblyshizhan/': [
+  '/docs/fontend/webassemblysz/': [
     {
       text: 'WebAssembly 实战',
       children: [
