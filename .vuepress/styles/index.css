@@ -132,3 +132,8 @@ div[class*="language-"] {
   border-color: #42b983 !important;
   background-color: rgba(66, 185, 131, .1) !important;
 }
+
+/* 块引用的背景 */
+blockquote {
+  background-color: #edf8f6 !important;
+}

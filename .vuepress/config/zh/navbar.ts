@@ -85,7 +85,14 @@ export const navbar = [
   {
     text: '区块链',
     icon: 'BlockChain',
-    children: []
+    children: [
+      {
+        text: '基础',
+        children: [
+          { text: '区块链原理设计与应用', link: '/docs/blockchain/qklylsjyyy/book-cover/' },
+        ]
+      }
+    ]
   },
    {
     text: '游戏开发',
