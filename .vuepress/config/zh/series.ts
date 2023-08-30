@@ -25,7 +25,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/rust/rustquanweizhinan/': [
+  '/docs/rust/rustqwzn/': [
     {
       text: 'Rust 权威指南',
       children: [

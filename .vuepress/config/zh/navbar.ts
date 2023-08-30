@@ -24,7 +24,7 @@ export const navbar = [
       {
         text: '进阶',
         children: [
-          { text: 'Rust 权威指南', link: '/docs/rust/rustquanweizhinan/book-cover/' }
+          { text: 'Rust 权威指南', link: '/docs/rust/rustqwzn/book-cover/' }
         ]
       }
     ]
