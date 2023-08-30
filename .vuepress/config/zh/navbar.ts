@@ -18,7 +18,7 @@ export const navbar = [
       {
         text: '基础',
         children: [
-          { text: 'Rust 编程之道', link: '/docs/rust/rustbianchengzhidao/book-cover/' }
+          { text: 'Rust 编程之道', link: '/docs/rust/rustbczd/book-cover/' }
         ]
       },
       {

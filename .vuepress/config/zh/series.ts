@@ -1,5 +1,5 @@
 export const series = {
-  '/docs/rust/rustbianchengzhidao/': [
+  '/docs/rust/rustbczd/': [
     {
       text: 'Rust 编程之道',
       children: [
