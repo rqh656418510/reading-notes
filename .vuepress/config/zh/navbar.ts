@@ -83,6 +83,11 @@ export const navbar = [
     ]
   },
   {
+    text: '大数据',
+    icon: 'BigData',
+    children: []
+  },
+  {
     text: '区块链',
     icon: 'BlockChain',
     children: [
@@ -94,7 +99,7 @@ export const navbar = [
       }
     ]
   },
-   {
+  {
     text: '游戏开发',
     icon: 'GameDevelop',
     children: [
@@ -106,6 +111,11 @@ export const navbar = [
         ]
       }
     ]
+  },
+  {
+    text: '人工智能',
+    icon: 'AI',
+    children: []
   },
   {
     text: 'GitHub',
