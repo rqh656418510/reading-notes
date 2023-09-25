@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev .",
     "docs:build": "vuepress build .",
-    "clean": "rimraf .vuepress/dist .vuepress/.cache .vuepress/.temp package-lock.json"
+    "clean": "rimraf .vuepress/dist .vuepress/.cache .vuepress/.temp"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
