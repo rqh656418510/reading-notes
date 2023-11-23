@@ -122,28 +122,7 @@ export const series = {
       ]
     }
   ],
-  '/docs/blockchain/qklylsjyyy/': [
-    {
-      text: '区块链原理设计与应用',
-      children: [
-        'book-cover',
-        'book-buy',
-        'book-progress'
-      ]
-    },
-    {
-      text: '第一章 区块链思想的诞生',
-      children: [
-        'chapter-01'
-      ]
-    },
-    {
-      text: '第二章 核心技术预览',
-      children: [
-        'chapter-02'
-      ]
-    }
-  ],
+
   '/docs/game/pcyxbcrjby/': [
     {
       text: 'PC 游戏编程 (人机博弈)',
@@ -153,6 +132,23 @@ export const series = {
         'book-progress'
       ]
     }
+  ],
+  '/docs/database/mysqlywnc/': [
+    {
+      text: 'MySQL 运维内参',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    },
+    {
+      text: '第一部分 MySQL 篇',
+      children: [
+        'chapter-13',
+        'chapter-14'
+      ]
+    },
   ],
   '/docs/game/zgxqcxrmytg/': [
     {
@@ -197,6 +193,28 @@ export const series = {
         'chapter-04-section-05',
         'chapter-04-section-06',
         'chapter-04-section-07'
+      ]
+    }
+  ],
+  '/docs/blockchain/qklylsjyyy/': [
+    {
+      text: '区块链原理设计与应用',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    },
+    {
+      text: '第一章 区块链思想的诞生',
+      children: [
+        'chapter-01'
+      ]
+    },
+    {
+      text: '第二章 核心技术预览',
+      children: [
+        'chapter-02'
       ]
     }
   ]

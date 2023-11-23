@@ -88,13 +88,13 @@ export const navbar = [
     children: []
   },
   {
-    text: '区块链',
-    icon: 'BlockChain',
+    text: '数据库',
+    icon: 'DB',
     children: [
       {
-        text: '基础',
+        text: 'MySQL',
         children: [
-          { text: '区块链原理设计与应用', link: '/docs/blockchain/qklylsjyyy/book-cover/' },
+          { text: 'MySQL 运维内参', link: '/docs/database/mysqlywnc/book-cover/' },
         ]
       }
     ]
@@ -108,6 +108,18 @@ export const navbar = [
         children: [
           { text: 'PC 游戏编程 (人机博弈)', link: '/docs/game/pcyxbcrjby/book-cover/' },
           { text: 'C/C++ 中国象棋程序入门与提高', link: '/docs/game/zgxqcxrmytg/book-cover/' }
+        ]
+      }
+    ]
+  },
+  {
+    text: '区块链',
+    icon: 'BlockChain',
+    children: [
+      {
+        text: '基础',
+        children: [
+          { text: '区块链原理设计与应用', link: '/docs/blockchain/qklylsjyyy/book-cover/' },
         ]
       }
     ]
