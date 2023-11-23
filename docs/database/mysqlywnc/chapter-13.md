@@ -12,7 +12,7 @@ GTID 是全局事务标识符，是 MySQL 5.6 版本开始在主从复制方面�
 - 同样是在 MySQL Group Replication 中，集群使用 GTID 来标记事务，或者叫冲突验证，用于跟踪每个实例上提交的事务，确定哪些事务可能有冲突。
 - GTID 的引入，让每一个事务在集群事务的海洋中有了秩序，使得 DBA 在运维中做集群变迁时更加方便，能够做到心中有数。
 
-## GTID 相关概念
+## GTID 概念
 
 ### 什么是 GTID
 
@@ -117,3 +117,22 @@ MySQL 中有一个单独的后台线程来执行 `gtid_executed` 表压缩的操
 ![](../../../assets/2023/11/mysqlywnc_3.png)
 
 该线程睡眠直到执行了 `executed_gtids_compression_period` 事务后，唤醒该线程执行 `gtid_execute` 表的压缩，然后继续睡眠，如此循环。当禁用二进制日志功能，并将此变量设置为 0 时，该线程永远不会被唤醒。
+
+## GTID 限制
+
+由于基于 GTID 的复制依赖于事务，所以在使用 GTID 时，有些 MySQL 特性不支持，如下：
+
+- 事务中混合多个存储引擎，会产生多个 GTID
+    - 当使用 GTID 时，如果在同一个事务中，更新包括了非事务引擎（如 MyISAM） 和事务引擎（如 InnoDB）表的操作，就会导致多个 GTID 分配给同一个事务。
+
+- 主从库的表存储引擎不一致，会导致数据不一致
+    - 如果主从库的存储引擎不一致，例如一个是事务存储引擎，一个是非事务存储引擎，则会导致事务和 GTID 之间一对一的关系被破坏，结果导致基于 GTID 的复制不能正确地运行。
+
+- 基于 GTID 模式复制，不支持 `CREATE TABLE ... SELECT` 语句
+    - 因为使用基于行模式的复制时，该语句实际上被记录为两个单独的事件，一个是创建表，另一个是将原表中的数据插入到刚刚创建的新表中。当在事务中执行该语句时，在一些情况下，这两个事务可能接收到相同的事务 ID，这意味着包含插入操作的事务将被从库跳过。因此，在使用基于 GTID 的复制时，不支持 `CREATE TABLE ... SELECT`。
+
+- 不支持 `CREATE_TEMPORARY TABLE` 和 `DROP TEMPORARY TABLE`
+    - 使用 GTID 复制时，不支持 `CREATE TEMPORARY TABLE` 和 `DROP TEMPORARY TABLE`。但是在 `autocommit=1` 的情况下可以创建临时表，MASTER 创建临时表不会产生 GTID 信息，所以不会同步到 SLAVE 上，但是删除临时表时，会产生 GTID 信息，最终导致主从同步中断。
+
+- 不推荐在 GTID 模式的实例上进行 `mysql_upgrade`
+    - 因为 `mysql_upgrade` 的执行过程要创建或修改系统表（非事务引擎），所以不建议在开启 GTID 模式的实例上使用带有 `--write-binlog` 选项的 `mysql_upgrade`。
