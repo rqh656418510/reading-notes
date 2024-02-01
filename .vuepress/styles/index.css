@@ -44,6 +44,11 @@
 }
 
 /* 代码块正文 */
+b, strong {
+  font-weight: 800 !important;
+}
+
+/* 代码块正文 */
 .token.punctuation {
   color: #bb9712 !important;
 }
@@ -136,4 +141,9 @@ div[class*="language-"] {
 /* 块引用的背景 */
 blockquote {
   background-color: #edf8f6 !important;
+}
+
+/* 暗黑模式 */
+.dark blockquote {
+  color: #000000 !important;
 }
