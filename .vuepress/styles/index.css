@@ -152,3 +152,8 @@ blockquote {
 .dark blockquote {
   color: #000000 !important;
 }
+
+/* 暗黑模式 */
+.dark code {
+  color: white !important;
+}
