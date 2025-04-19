@@ -14,6 +14,6 @@ banner:
 footer:
   startYear: 2022
   envMessage: false
-  record: 粤ICP备19024664号
+  record: 粤ICP备 19024664号-1
   recordLink: http://beian.miit.gov.cn
 ---
