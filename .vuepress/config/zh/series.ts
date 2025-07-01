@@ -62,6 +62,26 @@ export const series = {
       ]
     }
   ],
+  '/docs/cxx/ldxcfwdbc/': [
+    {
+      text: 'Linux 多线程服务端编程',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    }
+  ],
+  '/docs/cxx/lcxxtxjgsz/': [
+    {
+      text: 'Linux C++ 通信架构实战',
+      children: [
+        'book-cover',
+        'book-buy',
+        'book-progress'
+      ]
+    }
+  ],
   '/docs/java/java8sz/': [
     {
       text: 'Java 8 实战',
@@ -122,7 +142,6 @@ export const series = {
       ]
     }
   ],
-
   '/docs/game/pcyxbcrjby/': [
     {
       text: 'PC 游戏编程 (人机博弈)',

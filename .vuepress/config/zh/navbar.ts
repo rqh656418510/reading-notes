@@ -8,6 +8,13 @@ export const navbar = [
         children: [
           { text: 'C++ Primer Plus (第 6 版)', link: '/docs/cxx/cxxprimerplus/book-cover/' }
         ]
+      },
+      {
+        text: '网络编程',
+        children: [
+          { text: 'Linux 多线程服务端编程', link: '/docs/cxx/ldxcfwdbc/book-cover/' },
+          { text: 'Linux C++ 通信架构实战', link: '/docs/cxx/lcxxtxjgsz/book-cover/' }
+        ]
       }
     ]
   },
