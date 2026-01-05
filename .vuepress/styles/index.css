@@ -1,16 +1,21 @@
-/* 搜索框 */
-.search-box input {
-    padding-left: 35px !important;
-}
-
-/* 搜索框 */
-@media screen and (min-width: 1221px) {
+/* 搜索框（大屏幕） */
+@media screen and (min-width: 2300px) {
   .search-box input {
-    width: 180px;
+    width: 200px;
+    padding-left: 3rem !important;
   }
 }
 
-/* 首页文案 */
+/* 搜索框（小屏幕） */
+@media screen and (max-width: 2300px) {
+  .search-box input {
+    width: 180px;
+    margin-left: 15px;
+    padding-left: 3rem !important;
+  }
+}
+
+/* 首页文案（小屏幕） */
 @media screen and (max-width: 1221px) {
   .banner-wrapper .banner-brand__content h1 {
     display: none;
@@ -33,9 +38,18 @@
   vertical-align: middle;
 }
 
-/* 左侧边栏（系列） */
-.series-container {
-  width: 19rem !important;
+/* 左侧边栏（大屏幕） */
+@media screen and (min-width: 1221px) {
+  .series-container {
+    width: 19rem !important;
+  }
+}
+
+/* 左侧边栏（小屏幕） */
+@media screen and (max-width: 1221px) {
+  .series-container {
+    width: 17rem !important;
+  }
 }
 
 /* 左侧边栏（系列）的 Logo 图片 */
@@ -78,6 +92,13 @@ div[class*="language-"].line-numbers-mode .line-numbers {
 div[class*="language-"] {
   background-color: #363b45 !important;
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+}
+
+/* 文章目录（小屏幕） */
+@media screen and (max-width: 1221px) {
+  .page-catalog-container {
+    margin-right: -30px !important;
+  }
 }
 
 /* 文章目录 */
@@ -156,4 +177,54 @@ blockquote {
 /* 暗黑模式 */
 .dark code {
   color: white !important;
+}
+
+/* 暗黑模式 */
+.btn-toggle-dark-mode {
+  margin-right: 10px !important;
+}
+
+/* 横屏时显示的提示遮罩层 */
+#rotate-mask {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.92);
+  color: #fff;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100dvh;
+}
+
+#rotate-mask .rotate-mask-content {
+  font-size: 16px;
+}
+
+#rotate-mask .icon {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+/* 导航栏（中屏幕）*/
+@media screen and (min-width: 1221px) and (max-width: 1884px) {
+  /* 导航栏横向滚动 */
+  .navbar-container .navbar-links {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* 导航栏下拉菜单 */
+  .navbar-container .dropdown-link__container {
+    position: fixed !important;
+    top: 56px;
+    z-index: 9999;
+    width: max-content;
+    max-width: 80vw;
+    min-width: 160px;
+    box-sizing: border-box;
+  }
 }
