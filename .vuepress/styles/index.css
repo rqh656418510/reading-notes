@@ -208,7 +208,7 @@ blockquote {
 }
 
 /* 导航栏（中屏幕）*/
-@media screen and (min-width: 1221px) and (max-width: 1884px) {
+@media screen and (min-width: 1221px) and (max-width: 1320px) {
   /* 导航栏横向滚动 */
   .navbar-container .navbar-links {
     display: flex;

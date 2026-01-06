@@ -1,5 +1,5 @@
-// 当屏幕宽度在 1221px ~ 1884px 之间时，导航栏启用横向滚动
-const MEDIA_QUERY = '(min-width: 1221px) and (max-width: 1884px)';
+// 当屏幕宽度在 1221px ~ 1320px 之间时，导航栏启用横向滚动
+const MEDIA_QUERY = '(min-width: 1221px) and (max-width: 1320px)';
 
 let dropdownObserver: MutationObserver | null = null;
 

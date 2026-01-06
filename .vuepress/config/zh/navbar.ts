@@ -37,6 +37,11 @@ export const navbar = [
     ]
   },
   {
+    text: 'Golang',
+    icon: 'Golang',
+    children: []
+  },
+  {
     text: 'Java',
     icon: 'Java',
     children: [
@@ -54,11 +59,6 @@ export const navbar = [
         ]
       }
     ]
-  },
-  {
-    text: 'Golang',
-    icon: 'Golang',
-    children: []
   },
   {
     text: 'Python',
