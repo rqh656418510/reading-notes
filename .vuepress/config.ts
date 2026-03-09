@@ -11,9 +11,10 @@ export default defineUserConfig({
   debug: false,
   port: 8080,
   head: [
+    ['meta', { name: 'robots', content: 'noindex, nofollow' }],
     ['meta', { name: 'application-name', content: 'Clay 的读书笔记' }],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'Clay 的读书笔记' }],
-    ['link', { rel: 'icon', href: 'favicon.ico' }]
+    ['link', { rel: 'icon', href: 'favicon.ico' }],
   ],
 
   // 多语言支持
