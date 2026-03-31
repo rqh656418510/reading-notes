@@ -94,6 +94,12 @@ div[class*="language-"] {
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
 }
 
+/* 正文图片居中 */
+.theme-reco-default-content img {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
 /* 文章目录（小屏幕） */
 @media screen and (max-width: 1221px) {
   .page-catalog-container {
